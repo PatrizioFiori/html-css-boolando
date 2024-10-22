@@ -34,6 +34,11 @@ header{
     padding: 5px;
 }
 
+.menu p:hover{
+    color: gray;
+    cursor: pointer;
+}
+
 
 .logo{
     margin: 15px;
@@ -44,6 +49,10 @@ header{
     height: 25px;
 }
 
+/* .logo img:hover{
+    color: gray;
+} */
+
 
 .icon{
     display: flex;
@@ -52,6 +61,10 @@ header{
 
 .icon p{
     padding: 5px;
+}
+
+.icon p:hover{
+    color: gray;
 }
 
 
@@ -156,3 +169,55 @@ header{
 text-decoration: line-through;
 }
 
+
+
+.footerconteiner{
+    background-color: #1A1A1A;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 20px;
+
+}
+
+.boolandoinfo{
+    padding-top: 20px;
+    font-size: 16px;
+    width: 500px;
+}
+
+.boolandoinfo a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+    padding-right: 10px;
+}
+
+.boolandoinfo a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+.social{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialicon{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.socialicon p i{
+    padding: 5px;
+}
+
+.socialicon p i:hover{
+    color: gray;
+}
