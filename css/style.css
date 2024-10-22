@@ -49,10 +49,6 @@ header{
     height: 25px;
 }
 
-/* .logo img:hover{
-    color: gray;
-} */
-
 
 .icon{
     display: flex;
@@ -65,6 +61,7 @@ header{
 
 .icon p:hover{
     color: gray;
+    cursor: pointer;
 }
 
 
@@ -220,4 +217,5 @@ text-decoration: line-through;
 
 .socialicon p i:hover{
     color: gray;
+    cursor: pointer;
 }
