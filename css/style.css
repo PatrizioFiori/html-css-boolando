@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:bisque
+ }
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    max-width: 950px;
+    background-color: gray;
+}
+
+.card{
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+
+
+}
+
+.card img{
+    width: 300px;
+}
+
+.prodottoB{ /*vorrei trovare un modo per non far contare l'hover quando sei sul cuore*/
+    display: none;
+
+}
+
+.card:hover .prodottoA{
+    display: none;
+
+}
+
+.card:hover .prodottoB{
+    display: block;
+
+}
+
+.heart{
+    position: absolute;
+    font-size: 25px;
+    padding: 5px 10px;
+    top: 5px;
+    right: 0;
+    background-color: white;
+}
+
+.heart:hover{
+    color: red;
+    font-size: 35px;
+}
+
+.discount{
+    position: relative;
+    background-color: red;
+}
+
+.discount p{
+    background-color: red;
+    color: white;
+    position: absolute;
+    bottom: 90px;
+    padding: 1px 4px;
+}
+
+.discount span{
+    background-color: green;
+    color: white;
+    position: absolute;
+    margin: 1px;
+    padding: 1px 4px;
+}
+
